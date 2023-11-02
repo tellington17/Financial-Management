@@ -1,0 +1,15 @@
+h1 {
+    color: red;
+}
+
+#authorize_button {
+    visibility: visible
+}
+
+#signout_button {
+    visibility: hidden
+}
+
+#content {
+    white-space: pre-wrap;
+}
