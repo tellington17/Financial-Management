@@ -24,7 +24,6 @@ const TOKEN_PATH = path.join(process.cwd(), 'token.json');
 const CREDENTIALS_PATH = path.join(process.cwd(), 'credentials.json');
 
 
-const yourBearerToken = "ya29.a0AfB_byBboj03JZGgzYv5OnNZPg6rRk0pMx9_Tj_bZEYX2jd2Y8nEvWcG9yTjKfida9EeMjAL-zRgoANMKUW8X9Vj4AjssjT_TdWSc5ZgEQ9YGBP0ILi9zmQLU29ehCACcnFxQMsDuTeEVSfhhmicl914GVtr_T1dWuj1aCgYKAdMSARASFQGOcNnCTmo6hPsL9orMe2s4aQZ3Lg0171";
 const getConfig = {
     headers: {
         Authorization: `Bearer ${yourBearerToken}`,
